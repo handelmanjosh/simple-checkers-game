@@ -1,0 +1,47 @@
+.flex-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.flex-col {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.square {
+    width: 30px;
+    height: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.red {
+    background-color: red;
+    color: red;
+}
+.white {
+    background-color: white;
+}
+.circular {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+}
+.blue-checker {
+    background-color: blue;
+}
+.black-checker {
+    background-color: black;
+}
+.selected {
+    background-color: yellow;
+}
+.potential {
+    background-color: purple;
+}
+.square:hover {
+    background-color: green;
+}
